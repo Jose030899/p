@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class PagesComponent implements OnInit {
 
   constructor() { }
+  year = new Date().getFullYear();
 
   ngOnInit(): void {
   }
